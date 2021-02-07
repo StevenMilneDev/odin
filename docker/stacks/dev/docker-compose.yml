@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  nexus:
+    image: sonatype/nexus3:3.29.2
+    ports:
+      - 8081:8081
+      - 8083:8083
+    volumes:
+      - nexus:/nexus-data
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+
+volumes:
+  nexus:
