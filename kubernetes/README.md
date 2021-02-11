@@ -6,8 +6,8 @@ The Kubernetes clusters are serviced by a few VMs;
 
 - kube-rancher (IP: `192.168.1.182`) A small Kubernetes cluster which allows management of other clusters.
 - kube-master (IP: `192.168.1.98`) The control plane of the primary Kubernetes cluster
-- kube-01 (IP: `000.000.000.000`) A worker node for the primary cluster
-- kube-02 (IP: `000.000.000.000`) A worker node for the primary cluster
+- kube-01 (IP: `192.168.1.236`) A worker node for the primary cluster
+- kube-02 (IP: `192.168.1.97`) A worker node for the primary cluster
 
 To add a new host to the cluster, install [k3os](https://k3os.io/); a dedicated Kubernetes operating system. Install k3os by booting from the iso and typing the command;
 
