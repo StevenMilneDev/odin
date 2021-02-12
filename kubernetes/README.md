@@ -4,8 +4,8 @@ The server contains a couple of Kubernetes clusters, managed by Rancher.
 ## Hosts
 The Kubernetes clusters are serviced by a few VMs;
 
-- kube-rancher (IP: `192.168.1.182`) A small Kubernetes cluster which allows management of other clusters.
-- kube-master (IP: `192.168.1.98`) The control plane of the primary Kubernetes cluster
+- kube-rancher (IP: `192.168.1.206`) A small Kubernetes cluster which allows management of other clusters.
+- kube-master (IP: `192.168.1.184`) The control plane of the primary Kubernetes cluster
 - kube-01 (IP: `192.168.1.236`) A worker node for the primary cluster
 - kube-02 (IP: `192.168.1.97`) A worker node for the primary cluster
 
