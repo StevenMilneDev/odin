@@ -1,0 +1,12 @@
+$ORIGIN docker.odin.home.
+$TTL 500
+@                       IN      SOA     ns1.odin.home. root.odin.home. 8 604800 86400 2419200 604800
+@                       IN      NS      ns1.odin.home.
+@                       IN      NS      ns2.odin.home.
+@                       IN      A       192.168.1.146
+ns1.odin.home.          IN      A       192.168.1.169
+ns2.odin.home.          IN      A       192.168.1.223
+1                       IN      A       192.168.1.204
+2                       IN      A       192.168.1.243
+_http._tcp              IN      SRV     0 10 9000 docker.odin.home.
+_http._tcp              IN      SRV     0 10 8001 docker.odin.home.

@@ -1,0 +1,271 @@
+odin.home.              500     IN SOA  ns1.odin.home. root.odin.home. (
+                                        10         ; serial
+                                        604800     ; refresh (1 week)
+                                        86400      ; retry (1 day)
+                                        2419200    ; expire (4 weeks)
+                                        604800     ; minimum (1 week)
+                                        )
+                        500     RRSIG   SOA 7 2 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        oA5ixcFALWhJTYKwjVcuQWWQmNd1+t8F0qzv
+                                        FlSL68LYkkSEJdZAHcz/O7i2PWDxsGgO5VAL
+                                        CpmHxopJaqe1PrEoKJDwESbEY3t+tYDCitm7
+                                        Bl0ki8CqCLjNwR94uLfgUHCFHa6r9ELeEuem
+                                        UNn5anpxMKo3ShLaba32h85msO54DhzyPGIA
+                                        D75K7MAu/DQr/+uV9tawIqXUW2lQDny3z/Hh
+                                        AIrKkfUssyLC0tfWAMOzGp2NtPSCELGamiD7
+                                        DVopTwwKxqkgMHFcUyYIv/ktFhRdN7N3yWpS
+                                        IbgUgXkk4svt/hlYNIHA+9fpgf1CpmipmrWY
+                                        u/ed4pRLsiUTs/gcGA== )
+                        500     NS      ns1.odin.home.
+                        500     NS      ns2.odin.home.
+                        500     RRSIG   NS 7 2 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        iPUgy/VYGeqzd1nbYPAj8PWgsbDloDUP+/YP
+                                        3HMm2xyNUVYHdCB16qUF59R3tEdU9qmIglZI
+                                        k74zD4NmlTYVYnn1e5Xm40zH5L8CuZDUqnIB
+                                        Onh0UmMXiAbAt/nZcJD1Fcv71vn4PPVD/NsA
+                                        LVZk05YWRkbF3Dj0Vn6eu1af5YZSbhejXUjW
+                                        3Tqgj9j9ZGetRYD9QL/iOnZhzH3OtRM/zcwg
+                                        MxtQkGAJiM7k6FHqPbr1VL27V+To9j3nqQWT
+                                        5yagX9Og7pnBQdC7ngth12yPpSipeajueBoe
+                                        UMEPkcVmPymFm+M5v6KMRQeGQ88HejyFw/AM
+                                        ySwujad421H/KZwNGQ== )
+                        500     A       192.168.1.183
+                        500     RRSIG   A 7 2 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        W6hIlOAEAjL2MuqtXMlFZdyuStqaKCRw/Zjs
+                                        PfAoAOlrPN2kARLsfoTYfYodWyg4/iGdLN+C
+                                        bAgChxT4xYfMsIV9vbpYxZm5kUq1UVOlBJ9H
+                                        MSKuNPRho2VzQkUuLNtRildqrC1zmL/is96l
+                                        XDKLdeeNKSsvkaKklFYY7AtkdHNjnoD1VIGn
+                                        8tN3tZ+Yfvtp9lWcZNHZH/QAPXpW82DI0POf
+                                        5Ll1bcSl1EpeXP58Wk4YwnbjJdrwUPTsW8om
+                                        T5PuS8j3D0xmzZFqI6niY2F4EimbP8tgsP5e
+                                        E/Gy349H6yy8LY6HDXqmCtnLoL9PvX8z98QI
+                                        dRjiIcHPxSLGFs1Y3w== )
+                        500     TXT     "Hello world! This is a private DNS zone."
+                        500     TXT     "Something something human readable value."
+                        500     RRSIG   TXT 7 2 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        w4983x/Yoff+yvfqey8/g1DCwajAfMiMNjwk
+                                        SDA+5fvVfKGAJKJYzKYus38aqp76TXqKia08
+                                        ilpD9gLNgfLtAidZGPDm68SRoRJxmjVMWLKj
+                                        Nyh81vCKS1LFMHsA1AdzyH64WRyRvmnFIyZE
+                                        jy7KuoHIaijQU42ST5SA/00RzcbUv9X8QgMm
+                                        Xef502a6Sxrnagw/5Wio8Z21qVIfgoMLatC9
+                                        TMBU+2EZaIJzhA7RDNGmUNgNISVpxk3zpYED
+                                        wJNc7JL3kvFtyrWh+66/vfmZKI3R7Zn1hKru
+                                        GhjpkwDmh2cxdNr9E+Rfql61TRvmelWguySy
+                                        Ljb0sAVj5DOJ6BYN8w== )
+                        500     DNSKEY  256 3 7 (
+                                        AwEAAdElut/uI7eKkxmC5Ql/6HjyJdcMtStO
+                                        e3/YjBDSoVHm4+rX+tE4/VnLoJt7Pqf7TYtG
+                                        WdTGwpqtd6tFIkCIsIQozI2fcaxrki7RyBUn
+                                        dkheAjk7WM5pPCGsJQxgNyedEgCBGcnguha+
+                                        EsCQ66DkaEqqIJPKdjBzOkC5kZpTjNvtc4Ue
+                                        WtnxwiG8ru3Z+DfaE3WbOt+oU/s5a/jNtSpo
+                                        HGrdzVd56Zzw+6QvpGdWrbhCwYIHx3UJbIPh
+                                        1+VSRyTFHVvzqSkwf2VFaZ81pGZ5TDT+7R27
+                                        u1hcFKG96Jj8W/Aftbfj3RIxPWdhyIq85Ouy
+                                        XdiTZuPlLKpIFpXxeDzfqfk=
+                                        ) ; ZSK; alg = NSEC3RSASHA1 ; key id = 15482
+                        500     DNSKEY  257 3 7 (
+                                        AwEAAcZ/thUeDLWJ75L925rqSf6T//vUr5IX
+                                        lzTanRcNRDnPG8a85T6PywBXBqex0Zx1a+Sz
+                                        P0/UghAW/Ks9OFQeECn4WTMJjm1yOfH2ZG/A
+                                        3iNDcSfcBvSZPv6/0fK0/gVuigaYBlHd0gay
+                                        DJy05JC0jei8rXGPDi89z4hiqa147gq0Mv8q
+                                        /TfbL5l+pIGQjFW0fne1uqaAMNTnvWqLjiwh
+                                        nWl80WEQl2eg44bTiUX/VcNO8wqkQ7VRzDiy
+                                        bZ2TL0E+YD6p/3HIyzJ34S5U8d1whOEpntjt
+                                        7C2FVwifKOTZS0mcVQuHpPpI0M0FE9aEG+XX
+                                        97BNevdM29Jwzz/wpD0lnIk71zXzM1WS5cxt
+                                        mngEnZmjWZRyK7u6W0kvQh/C2/Mqo77iVYcJ
+                                        DuLc+Ber+lYlxGItrESWuNfeguIZ0nvpa0gJ
+                                        mlXZrZH5tXlo8uKz3UIoSB0nIS9+zMxOTDnz
+                                        oWQmu9DmWV6aLjELX1pT5MaxsHfmFYzZwq+9
+                                        qyUJ/VcLrsK0jT1qMkoRAJ/oS7+HMgAIZK/N
+                                        fKU8niLWO8pkJBH4TmYqMe2TDRDWg/KUdyq6
+                                        kXks2CSpgZCg3PbjcN5jLfeS/qmyqmsokb6j
+                                        i18ilVLL5f7Pe5d2VP4kmo5EyMXDJ5Z5gB4U
+                                        AmSkjrrKMDD7gS4vfohdP/DryeYV9sZCbF1R
+                                        Rdsz
+                                        ) ; KSK; alg = NSEC3RSASHA1 ; key id = 28500
+                        500     RRSIG   DNSKEY 7 2 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        qi02AjZtMB1wqanyPd1LLaKSSJhieMfC/CCC
+                                        vT5c7+ynLaaF5yoeUjzTWO8wZeZeDVfA4K2s
+                                        PGizH9mz/sM3dfQBLrZWMWA7mU61VtXUZo0O
+                                        J20mxzcEHPWR8CXWB76cxFK8iO6k2DfBLMGw
+                                        nQANCRPRHZVVrugn3kjfyiGp7NkGSjn0KkOO
+                                        yjpRym/g+nhBvTxJpdfPnfO90ovK637N2ux2
+                                        iSMpPvrcAqBCbb3IZODNcfiPsG4dEh44UlCQ
+                                        DMBrhStWrYb9IPOlDPlMNbElTuoU30KICRCC
+                                        EhB53/ec/NlFi++zKfAR76hR1mneISIrTXwz
+                                        aob1N459GFnHKkpfIg== )
+                        500     RRSIG   DNSKEY 7 2 500 (
+                                        20210814121217 20210715121217 28500 odin.home.
+                                        iQ/KLTvMiiZ2WHwNrA/dRYI+nxor5xHPgHi3
+                                        p2yVj+BixQLTKS6KgOWVn3mRs7B1yQusDx5+
+                                        9hptpBfkU7w4XuG0m6Uq9RdbFfhUOVt7Rvwu
+                                        oWli+8FeQqArvqa0J9nxuH5IGArU5Ssw71d/
+                                        JQm8fANK22FSX+zdqf1Cq35SJzQmKGI9ME0r
+                                        DTCvBluW1V2gm34wTKNQ1A8SqqURxaAy/yAE
+                                        B8fEx2oMijtvB+IVO0r+QPpz2zw4nEdzzToQ
+                                        rhr9c0xc2Yx3u63gbp8KS64BROFCadSwlbv0
+                                        T9YBO9Af1P/pPOwRi0JmgeeiM2N3OaYb+A6T
+                                        pLt5R8so6v4jRfzX417Pj0WwrECJHpdhAXNU
+                                        O2tkOg01m1LWQY7fv9s5k8ped8VJHbFJDdtX
+                                        v8JLIVU6tSpHstg9vOCdBdZsIR72cjuHtMlg
+                                        jXEAwMAsqRbnMTRdLtqHNaItchNMrrzwoi2C
+                                        zpQEWXdP0/Mar8OdmKXwINgj+R4uwK5La7di
+                                        eurMktfWNz+jnKAq+1YpUB8QnYcVrB5sDpMC
+                                        8krKG+YdnGetXaZD4MoOkrFRquBEIQ7lYrF5
+                                        p91xTfct4DS4PG0K3RAT2btSUvANtNGzUmot
+                                        qvffRzCKDTpbL1K97ohUyExTPhpOSVaQrgFh
+                                        kW2Ott66V9e+8qGsBUkOlLiLUaaXi9bp51U= )
+                        0       NSEC3PARAM 1 0 10 47C622CB1B90EFC7
+                        0       RRSIG   NSEC3PARAM 7 2 0 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        hbnQDWQnB4/XX4KmAJAsG80GC8Eh2csejWL5
+                                        nK5RTB863Nwl65ui0M7Lz03CxcDytCmMpIJM
+                                        WoM6vToI1dIg6mJ6YG13xpiehHxbd8QWqcQ/
+                                        bQRO2p1m4wDXQFDgwANc82kVF2BlxK/1JKPa
+                                        sTixWwJmef7mtSn17qkP7luEJsJi3I/X18OE
+                                        DlZ/xvKDErfbvOWU4os4P2WeoXXQoH+pxVqR
+                                        /x8ek7mvnIDxUuQE6/i1Oo9fj1iU8pHxJGyV
+                                        KoX00531GmzLyvvUY2gJF3fQEea5KkYZwpW9
+                                        RMQ5SpBAVfbt4AG4ajrN8/8WemWxUMsRbNwu
+                                        kFVBImDvYDh5/8Kq2A== )
+docker.odin.home.       500     IN NS   ns1.odin.home.
+                        500     IN NS   ns2.odin.home.
+k8s.odin.home.          500     IN NS   ns1.odin.home.
+                        500     IN NS   ns2.odin.home.
+ns.odin.home.           500     IN CNAME ns1.odin.home.
+                        500     RRSIG   CNAME 7 3 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        UF0X0Ig1CclRJd9Th6loWHdm2UazGL8zHLug
+                                        wNWcVuLiBKJEPVwY8ugG9pehbzioFIPZKDEq
+                                        ZZyRmQaXXb0PMykN9QHCnOQt7l/NFJ2/H3Cq
+                                        3kuautn0JYKc4j4NI/zadWsIhmz3XLt1T1Eo
+                                        oQ0MrAxK7r3RLDtKkMUY3Ja1+5D16IjBmoHm
+                                        wS/MgIFAAz9alJDXBQRBLdViTnahjV5ohgc6
+                                        8mBIxcF54O1ZuDh8Zphyz0BxrUCC8d4YCr81
+                                        S5YXEZe5tZOusvldmKY/0CTg6OYR2ldxc0v4
+                                        0BpAp6wWfZPJF1Kanl9RZyxGWiJn5Zv4wWK2
+                                        iVzos0VMdEKrTdlonA== )
+ns2.odin.home.          500     IN A    192.168.1.223
+                        500     RRSIG   A 7 3 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        Yp0a0uXQ2s4iU29UPcl7D7rpXr4muoNNUAaQ
+                                        riHz2pUTw+0LkeLkKU8rxWOV6ETOSAsV2GFc
+                                        z3p5qypJsIgPM0iqMTMV8/DjtwrbRVXNTG1w
+                                        vKEeFyNV1N5eZ+hV10Qo4e90tNlHq4Pp3H//
+                                        2WvOZRHLURxKEBKbmTxEM8BGvhuRJqnxMnsd
+                                        YMeQSlspSkRfegaohVy8DqYnj7yOV9jsyxfl
+                                        6MKF/CsQbRu79lbHsHclz8VHpPTqfREZq0xH
+                                        oR8PNURHm6aOCaHIxlb0wTD3XjtA1AsFpQPi
+                                        pm6gB3u+TY0LPr8lBowA3WocBgftlHXw1+2l
+                                        x38Ylqo9k/mGDS7UQw== )
+rancher.odin.home.      500     IN CNAME rancher.k8s.odin.home.
+                        500     RRSIG   CNAME 7 3 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        hp4b3dPejkd7bvZfyzEmlCocEyL6/FhD2OrK
+                                        j4Xa/PtCf/87Q84CZQIpVd09VWFjVMV87eKQ
+                                        9uz4ykMhZAyUJa4xl9xCc3TzKRGpP7N/DdqY
+                                        Pqf0j/f82sJi3+Qw9/psL8mX6FW5csiJjZRl
+                                        jgXYcObEVz/Ouit0NLYADbfF102t0DeCACzx
+                                        DNmk7DiIlqW2BvC8c4FFFkiQbJRAG1EXw9q/
+                                        HQJFSV2K29zCFJC6NXQ9G5r+Gnj/GghZxYk4
+                                        1YssUinMs5KmZwuI7gTtqVw2wwGuJOYRtNQ4
+                                        CPkyiHL0RHk8t2Y7NwkSBWf+u6UDgcZ/rXnx
+                                        juThbmzPbvB7/DQhSg== )
+40Q5DUVQQ9SNE6B01L3DLPPIP2O9DPT0.odin.home. 604800 IN NSEC3 1 1 10 47C622CB1B90EFC7 (
+                                        CSU63MAC0LQQU4DOVM8921P70OQSAM29
+                                        CNAME RRSIG )
+                        604800  RRSIG   NSEC3 7 3 604800 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        pitGhnSHFuNOf8coZVz+DTA/PjWe7FRueKVl
+                                        1Qe61F0KX1CVmv1XzEAmGUTSDxl3LDAbbCGD
+                                        YdB0Jn5nwBhJJMQEEJgrzBE/dwX4UmiK5N9x
+                                        UwxjUidgJJ6dfErvZAJBeUGgJ8rUjlrVLhJT
+                                        1niliTOyFG17cJl3l5dgyECUPZEXMyTLPqfL
+                                        rE1DR1zhMsMHDJeQXCN2Ot0TyTuKMyZyMXyb
+                                        QPHUYFSQt5AfDKsfbYIkJ+ts58fAyB3+5yQz
+                                        9kE6AOGz1GMnSMhW6gJ0wvFACCnehEjw+EQW
+                                        xVp7mo3x4fLJ7N0asKso9rHX2OvIH7IqzGv6
+                                        JVfao12wbA2nkGaOeA== )
+CSU63MAC0LQQU4DOVM8921P70OQSAM29.odin.home. 604800 IN NSEC3 1 1 10 47C622CB1B90EFC7 (
+                                        EO14FM8P1QIEDH4S8JBJHE2M8SDJO9NS
+                                        A NS SOA TXT RRSIG DNSKEY NSEC3PARAM )
+                        604800  RRSIG   NSEC3 7 3 604800 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        nl8C4AGBVTpn4SkiUWeOC1bOJNkm9YkcmCuw
+                                        H166ZLHCuMq0/9SYvuFEddtx++6XsMfVnMMQ
+                                        q5an/fh5ix7I9SC6+xJ0gc5uxvwT7J2ZbMM9
+                                        bdDF6ccykZSjav91zckF2zZLQGcc46Isqv6c
+                                        KKbaiYT6cRf3kAVi79+NTuC75Cdxy7xC8snL
+                                        UnvQG1F12zL7KR0SQF/d5lS02pEFbZ9ikzmu
+                                        X4Df0nmI84cRr7X8KF85C1KaGHlE3me+Cxfg
+                                        CYnYluEwVeFStJXMy/bPl/YnhSdNiMtZuVzn
+                                        Nip36eHd5/vopQAHiTqTryt53D6W7auNJblS
+                                        XKe/m6Xc5zoqvybjHA== )
+EO14FM8P1QIEDH4S8JBJHE2M8SDJO9NS.odin.home. 604800 IN NSEC3 1 1 10 47C622CB1B90EFC7 (
+                                        TBHK49BEPCI8CLSF3GG5F793JMPVITNP
+                                        A RRSIG )
+                        604800  RRSIG   NSEC3 7 3 604800 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        hFUoksx3m3I55p4y5aEuo9D6HFyg4oLMljTU
+                                        SooHcniJdTcBqdEhNLzGVhQmQ4oHIMjm2Vdg
+                                        KbYEcbxmLhp5QkGlYJDbJjSGRBX27ib5u78P
+                                        Z16fvvr+aQzgV1N8mM2yOp7/KuOOT7VqwDQ8
+                                        /WFe5z2uWfcMQ8bysbeSch46ZtaDyUFBzNeY
+                                        Mhuf4EM2Y59KU/EvPM9nBOxpgL2gzmloohMy
+                                        eB5V6WVIUb34eGyc5DYJkGcgCpQmAXZlm5Z0
+                                        MDN2kI+dIPe1GUyxpYBE/rXJAwKkHbbyAWtp
+                                        Rw3lEF5RB+icDKKZAVvQoi4eFDE4GJm06Xdb
+                                        AWpCJYlZvAPBqMrlYg== )
+TBHK49BEPCI8CLSF3GG5F793JMPVITNP.odin.home. 604800 IN NSEC3 1 1 10 47C622CB1B90EFC7 (
+                                        UVL43UCHATIAPVKCJTFOL52U86PM3C3K
+                                        CNAME RRSIG )
+                        604800  RRSIG   NSEC3 7 3 604800 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        yAS0UyCyKQoYEXiJyoLHH6ZnnFA9cJ+jI3VB
+                                        SY/EXXF8owQXuO/zJBoPvDE1YXk9IKge0dau
+                                        CXusZjwLLpRhvNLieA4E3llziVUi1OeLe6Df
+                                        8Th46q7nTqFgV+ejovQ71OM81OrbeN4XT7mJ
+                                        HIyi+xdn9mDoYq8ZR2POsnkgly+Q/OIp9Jop
+                                        g6pY3j3FiTx1dz/FJwVvLpgaO3evXQhCCFIh
+                                        Hipex8EurB6KKgj99FEv2n8cvaeYO2jqCJFU
+                                        4T4mZttoiixqQ9TMAXPZWNLEnqXbOZga/5++
+                                        /K/bFj5rE6TugshOESfVURnamHBPYpBrd5DZ
+                                        wzBwZwsvFLNcKcWgMQ== )
+UVL43UCHATIAPVKCJTFOL52U86PM3C3K.odin.home. 604800 IN NSEC3 1 1 10 47C622CB1B90EFC7 (
+                                        40Q5DUVQQ9SNE6B01L3DLPPIP2O9DPT0
+                                        A RRSIG )
+                        604800  RRSIG   NSEC3 7 3 604800 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        cAmlgRTdWIuGsGshtseS29Plm25RZqzO6pD4
+                                        9GC01C60lvyRVuUuUnvBORBE6CsDgK2Delz0
+                                        mSfOj3fLH1sDlk4a+1py81DshIEqLv0vYFfO
+                                        ocuYo+aq0Jm2GCOLYQHPwsvig2uBC1a9aRgg
+                                        ZlFdIpcsSUliR59zCmVKNz06TVKgThojwaop
+                                        R5P6ifsaBIcT9IGZVjUAxE+JJaju/dgnJvs+
+                                        35AxchAmnTt36oRcoij7Whm9HP3rHt2GNr77
+                                        MhFsIcuyOmcm4CRa6ESWjcRN522dtxcEERsD
+                                        PT5g86TEnD5cnZvdLQCI5Q+bLBFa78451rgD
+                                        tQBzeTnpNf/8LSXbkA== )
+ns1.odin.home.          500     IN A    192.168.1.169
+                        500     RRSIG   A 7 3 500 (
+                                        20210814121217 20210715121217 15482 odin.home.
+                                        z57kWERHAqGIGAPK7CvNNLRahY1+iIHsdE/h
+                                        AFVh9OnmGHHluzsGB28t1r3RzyRq6+dgFwVM
+                                        oZYLCwDPoOD+la29PRSSfxKdi8U2mCQAXJ5o
+                                        eQGRnEE86ab5Gyp9LHaDax96L3NYO/MAOHC5
+                                        mLwVSTRHEpGikKrVkF0K3s8kfLQXReQWq58A
+                                        0XDe/SZeJP4VUb8uuMX3NTAhdoedXT6RzLJ3
+                                        nC1LUXR6fsszZR7/xfHG06T+WeWz+QFJdVW4
+                                        vZ/IuMWOAJPy0+UguMLafmgPIuqYY3PmRCOI
+                                        hJTD2QxxrsjnYV8joLfvYRPmGb2eUnt70OPX
+                                        Bi+PhpijGejadqnfdg== )

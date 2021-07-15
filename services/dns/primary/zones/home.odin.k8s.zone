@@ -1,0 +1,11 @@
+$ORIGIN k8s.odin.home.
+$TTL 500
+@                       IN      SOA     ns1.odin.home. root.odin.home. 4 604800 86400 2419200 604800
+@                       IN      NS      ns1.odin.home.
+@                       IN      NS      ns2.odin.home.
+@                       IN      A       192.168.1.184
+ns1.odin.home.          IN      A       192.168.1.169
+ns2.odin.home.          IN      A       192.168.1.223
+rancher                 IN      A       192.168.1.206
+1                       IN      A       192.168.1.116
+2                       IN      A       192.168.1.231

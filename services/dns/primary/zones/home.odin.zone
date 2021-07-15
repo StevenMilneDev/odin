@@ -1,0 +1,18 @@
+$ORIGIN odin.home.
+$TTL 500
+@                       IN      SOA     ns1.odin.home. root.odin.home. 9 604800 86400 2419200 604800
+@                       IN      NS      ns1.odin.home.
+@                       IN      NS      ns2.odin.home.
+@                       IN      DNSKEY  256 3 7 AwEAAdElut/uI7eKkxmC5Ql/6HjyJdcMtStOe3/YjBDSoVHm4+rX+tE4 /VnLoJt7Pqf7TYtGWdTGwpqtd6tFIkCIsIQozI2fcaxrki7RyBUndkhe Ajk7WM5pPCGsJQxgNyedEgCBGcnguha+EsCQ66DkaEqqIJPKdjBzOkC5 kZpTjNvtc4UeWtnxwiG8ru3Z+DfaE3WbOt+oU/s5a/jNtSpoHGrdzVd5 6Zzw+6QvpGdWrbhCwYIHx3UJbIPh1+VSRyTFHVvzqSkwf2VFaZ81pGZ5 TDT+7R27u1hcFKG96Jj8W/Aftbfj3RIxPWdhyIq85OuyXdiTZuPlLKpI FpXxeDzfqfk= ; ZSK(15482)
+@                       IN      DNSKEY  257 3 7 AwEAAcZ/thUeDLWJ75L925rqSf6T//vUr5IXlzTanRcNRDnPG8a85T6P ywBXBqex0Zx1a+SzP0/UghAW/Ks9OFQeECn4WTMJjm1yOfH2ZG/A3iND cSfcBvSZPv6/0fK0/gVuigaYBlHd0gayDJy05JC0jei8rXGPDi89z4hi qa147gq0Mv8q/TfbL5l+pIGQjFW0fne1uqaAMNTnvWqLjiwhnWl80WEQ l2eg44bTiUX/VcNO8wqkQ7VRzDiybZ2TL0E+YD6p/3HIyzJ34S5U8d1w hOEpntjt7C2FVwifKOTZS0mcVQuHpPpI0M0FE9aEG+XX97BNevdM29Jw zz/wpD0lnIk71zXzM1WS5cxtmngEnZmjWZRyK7u6W0kvQh/C2/Mqo77i VYcJDuLc+Ber+lYlxGItrESWuNfeguIZ0nvpa0gJmlXZrZH5tXlo8uKz 3UIoSB0nIS9+zMxOTDnzoWQmu9DmWV6aLjELX1pT5MaxsHfmFYzZwq+9 qyUJ/VcLrsK0jT1qMkoRAJ/oS7+HMgAIZK/NfKU8niLWO8pkJBH4TmYq Me2TDRDWg/KUdyq6kXks2CSpgZCg3PbjcN5jLfeS/qmyqmsokb6ji18i lVLL5f7Pe5d2VP4kmo5EyMXDJ5Z5gB4UAmSkjrrKMDD7gS4vfohdP/Dr yeYV9sZCbF1RRdsz ; KSK(28500)
+@                       IN      TXT     "Hello world! This is a private DNS zone."
+@                       IN      TXT     "Something something human readable value."
+@                       IN      A       192.168.1.183
+ns                      IN      CNAME   ns1.odin.home.
+ns1                     IN      A       192.168.1.169
+ns2                     IN      A       192.168.1.223
+docker                  IN      NS      ns1.odin.home.
+docker                  IN      NS      ns2.odin.home.
+k8s                     IN      NS      ns1.odin.home.
+k8s                     IN      NS      ns2.odin.home.
+rancher                 IN      CNAME   rancher.k8s.odin.home.

@@ -1,0 +1,42 @@
+//
+// Do any local configuration here
+//
+
+trust-anchors {
+  local. static-ds 23523 7 2 "9C7ADFAD04B0BC4DCE6108E134293278E211267E8EF23AA8717D70F7BF949E69";
+  local. static-key 257 3 7 "AwEAAZRhKyaXJeQjozr2sXINRa0MIB7ZDHz72hoI7xsUOwUw2SqlQocT N10MjPPjsIEQl3pqlvSttAhuQZscu3KmuDUVq4oAYO2Z9QaLqi7graqC GgotYh674wFSDzucLW60ytlLr9zQw5qZx/Ksd79YxPF8R2Pm16yA9gNN Rqci4ZlVnGhBJDaJ4nwCQsveF1SFyGeoINlDC2jYfxwvyp4S0seyca/i ms+GRdItkoFzjwEFFuktCuERPN4tphERtY6e2rBhctTtafrqk4hctADv /jPhn1AmkxdBqN6vwUXUNCz4JHY8o7Ny9XsJ76u5elA7AKzVDGVnUQK1 q57ZTVS5blw2OPm/fCfu6CkfLwf7gdnDphxfoWzpXbFwZtbp/ADTDTnY gQIe9aV3aJs+pTmTRISNp1B6bXe26YpQqlXUjc/2h25rpqqrZV04JvA/ 8YPfwE1Yi7+rf5665LimDDwE70ZnG7svFX/tfR0coiRlugPJfiNRQgQO gFoRIBxb3KE4B9uGQo/EF4zzogKf5D12W6u/8TSdDgum7szDUZdmnqzG mfrhvuLBybsKdjE+YU/nbbboHVnnVWiEKI2xTkHK9hVgU+6m9f9hQV71 HxfF2e0tMEKBUWmR38oCfe8HSNXMAkCGbfmKSlVLOh0JA8SeYZDGP8jB y7IMrXP8crDgsBgn";
+};
+
+// zone "." {
+//   type slave;
+//   file "db.";
+//   masters { 192.168.1.169; };
+// };
+
+zone "home" {
+  type slave;
+  file "db.home";
+  masters { 192.168.1.169; };
+};
+
+zone "odin.home" {
+  type slave;
+  file "db.home.odin";
+  masters { 192.168.1.169; };
+};
+
+zone "docker.odin.home" {
+  type slave;
+  file "db.home.odin.docker";
+  masters { 192.168.1.169; };
+};
+
+zone "k8s.odin.home" {
+  type slave;
+  file "db.home.odin.k8s";
+  masters { 192.168.1.169; };
+};
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";

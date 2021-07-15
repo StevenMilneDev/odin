@@ -1,0 +1,12 @@
+$ORIGIN home.
+$TTL 500
+@                       IN      SOA     ns1.odin.home. root.odin.home. 6 604800 86400 2419200 604800
+@                       IN      NS      ns1.odin.home.
+@                       IN      NS      ns2.odin.home.
+@                       IN      DNSKEY  256 3 7 AwEAAcWqc4QwzsGe9Gg7JEGYHqIQmRfxJ0Z7Yx7sww/xFTLKRfpesXhn eSVsYAo9i2gbHYF0cYkhuFw460ryzm2oEfG6UIAsjGy+nIQf3w2Haiq3 DOl3qIHCuZLZ8o4HYjKy9lX57qI+llRCapPGWAzLXm+etw/PrUqnW+om J2OUnK4OWFbL2O3zamtWArKk9esCkzanEilbGJuwSU+PHgEJcqLOBrOf JBVKPJPR6Q2MAC6BC53K3+lzT0gKqDv5F7/tjTWboiDl8fFh/zXXaVET p2MlqEkf9TygUGcUfas34nILfPLnMF1CO6oYlrLCVKn2uPhfGRDHSVf6 Szds71AaPNM= ; ZSK(57083)
+@                       IN      DNSKEY  257 3 7 AwEAAbc98Apfp1NiAWjtAGWRFPEjybzzF2e2fjFzI98GyNyqBlH4ydnF XrZB8id2EAQdkqyCuQX9X/bYZ8gYbfZGDeidH1sjUluTL7OOONZY6PN3 Z6a28kKoXAWmKbmFEPITbI1Ctmw6Gq84AdaILRlHbkwuH94EzvN08gKY P4Z902ZWYYOxtfledVoRZLqYEj4HVmSpzfS44ud2dwRSnlkllk4lQe4d pFfHD0YxzDuOJzSQ4EbVtuCdCIMk1UMEfQcEUV4rB2n3+KYiQlhERwAD JzqKo56PphL7X0q2iLP8V2Q5X7qlRpLdzz3j2Xg5LbDv7VmLJl23XfEo ZNWdT53WWlLoMvaYYMi/oq/YJ66AfIHkZil7fDX/AIV+qbtMIsWEktwx eH+GKIZbnOePjBsQ/QOK8plB/nSWkadCvYlUZjr8ENeMSXR0MwfKHOqK d6jCcilJtr63DGG9zi17bN9A6BFVnWpcHP8drM+z07pZaQHE4v47rSUY DvIRwJfd0EYMbtXw+XlCdrMPa+5UnRLFaz0BaEJExU2ghqm/G5Qw6EU4 jnpoi2XO9XEeyN2CyehI/kbhyCEwherRm7WOnonBmGGa3C1YnFSiezQ6 +8JUaxO0zoo/ZJtwQbwgvOvSNfC7R2Q0kmNgPEmj1vuj9dtxY3dRacor Hq2EVnXYj9DNkgMP ; KSK(23523)
+ns1.odin.home.          IN      A       192.168.1.169
+ns2.odin.home.          IN      A       192.168.1.223
+odin                    IN      NS      ns1.odin.home.
+odin                    IN      NS      ns2.odin.home.
+odin                    IN      DS      28500 7 2 2CB1B5DDC8FF1FD60B0D8443DF1903B93368E2083F4DC131750E69B3 0628DB88
