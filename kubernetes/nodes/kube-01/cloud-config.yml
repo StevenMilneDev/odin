@@ -3,5 +3,5 @@ ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMZP1R13tueil1fbrxZ5IRe5AR1vQe0iyLnumiSyUnRIbbBSwJHOamDQ9E4ADexJ6kCP5I6wGMj7bidSigYNYzclCHw9POBl7azjCkN5JBcLOdS3329pUUUcfi/QD5G+/LtxIb7pQtdLJWdCsrFb5hfwxBgOa+gW8dtS289XIM8/WkNQpygwG0yBTlHuOTQcBpQifJuIt4ePexIeZeCr+OCr2mxv4k/Nyk87SlcDUqfcL1SCOePCVGFb9F4+vT2svyTmyUtltP/dajxly42rw/3oqznpVG8FTJgtfzntiZ+YwkEVYDqCTEfCuXFc1jvuiWd96e+AhCm+9V2dkjCGJ9 steve@Stevens-MacBook-Pro.local
 
 k3os:
-  server_url: https://192.168.1.184:6443
-  token: K106d456425817cb599072dc13f533d094aac9ca303cd6e3ee4e66f0282d937d323::server:df146a961f4e616eb6d07a5533ef22d1
+  server_url: https://192.168.1.65:6443
+  token: K10e935a5711c49bb2e458da35b9805828e2222fe780c17f2cbb759ef84005d6bcc::server:d2d591b5720d9c046cad4047f3e2703f
